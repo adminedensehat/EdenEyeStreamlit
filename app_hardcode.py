@@ -36,7 +36,7 @@ prostate_vol_dir = os.path.join(directory, "ProstateVolumes")
 
 image = Image.open('EdenEye.png')
 st.image(image)
-st.markdown("<h1 style='text-align: center; color: white;'>Tumor Segmentation --</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Tuberculosis & Pneumonia Detector</h1>", unsafe_allow_html=True)
 
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
