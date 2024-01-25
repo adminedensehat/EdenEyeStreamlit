@@ -1,0 +1,12 @@
+dicom2nifti==2.3.4
+matplotlib==3.7.1
+monai==1.2.0
+nibabel==5.1.0
+numpy==1.25.2
+pandas==1.5.3
+Pillow==10.1.0
+streamlit==1.28.2
+torch==2.1.0
+tqdm==4.65.0
+streamlit-authenticator==0.2.3
+streamlit-cognito-auth==1.2.0
