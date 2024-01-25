@@ -1,0 +1,25 @@
+credentials:
+  usernames:
+    jnatakusuma:
+      email: jonathan@edensehat.com
+      name: Jon Natakusuma
+      password: $2b$12$0R2.WKK5ZeFPha1naCLJY.bzgOpDDUHbO1vpi0EmoCEm3OdgyaN/6
+    mthanos:
+      email: matthew@templarx.io
+      name: Matthew Thanos
+      password: $2b$12$vyQtgDIV.5aTRSrKmp2j4Ob36.nfZHAFNotjy4aNA.jRIsNImu8VS
+    fs:
+      email: fs1818@gmail.com
+      name: Fofo Sariaatmadja
+      password: $2b$12$1cbZIZUShjoWiU/EERHom.5CkXNiHhth6a5V0En8k54L3VsWVVq2a
+    emcalsut:
+      email: ardra.chris@gmail.com
+      name: Ardra Christian
+      password: $2b$12$72RvZ224cVM6wQof5sEte.bZzBrWFM6c2C12syncJRMBX6Vw9rjQO      
+cookie:
+  expiry_days: 1
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - jonathan@edensehat.com
