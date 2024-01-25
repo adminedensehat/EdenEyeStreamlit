@@ -5,50 +5,13 @@ import time
 from PIL import Image
 #from preprocessing_images import *
 import streamlit_authenticator as stauth
-
-from monai.utils import first, set_determinism
-from monai.transforms import (
-    Compose,
-    # AddChanneld,
-    LoadImaged,
-    Resized,
-    ToTensord,
-    Spacingd,
-    Orientationd,
-    ScaleIntensityRanged,
-    CropForegroundd,
-    Activations,
-    EnsureChannelFirstd,
-    AsDiscrete,
-    Invertd,
-    AsDiscreted,
-    SaveImaged,
-    ScaleIntensityd,
-    RandGaussianNoised,
-    RandGaussianSmoothd,
-    RandScaleIntensityd,
-    RandShiftIntensityd,
-    RandAdjustContrastd,
-    EnsureTyped,
-    MapTransform,
-    NormalizeIntensityd,
-    Activationsd,
-)
-from monai.networks.nets import UNet, SwinUNETR, SegResNet, SegResNetVAE
 import glob
-from monai.networks.layers import Norm
-from monai.data import CacheDataset, DataLoader, Dataset
 import torch
 import matplotlib.pyplot as plt
 import os
 from glob import glob
 import numpy as np
-from monai.inferers import sliding_window_inference
 import shutil
-from tqdm import tqdm
-import dicom2nifti
-import nibabel as nib
-from monai.utils import first
 import os
 import tempfile
 import pathlib
